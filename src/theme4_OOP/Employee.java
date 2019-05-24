@@ -21,4 +21,8 @@ public class Employee {
         System.out.println(name + " " + age + " " + position + " "
                 + email + " " + phoneNumber + " " + salary);
     }
+
+    public void printNoSpacex() {
+        System.out.println(name+position+email+phoneNumber+salary+age);
+    }
 }
